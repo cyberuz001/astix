@@ -1,79 +1,127 @@
 # ASTIX — Cinematic 3D Fashion E-Commerce Experience
 
-A production-quality, premium, long-scrolling, cinematic 3D fashion website for **ASTIX** — architectural footwear and technical storm shells engineered around human movement, material restraint, and contemporary visual culture.
+[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg?style=flat-square)](LICENSE)
+[![React](https://img.shields.io/badge/React-18-black?style=flat-square&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-black?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-WebGL-black?style=flat-square&logo=three.js)](https://threejs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-black?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-5.4-black?style=flat-square&logo=vite)](https://vitejs.dev/)
+
+> A production-quality, award-winning cinematic 3D fashion e-commerce experience for **ASTIX** — architectural footwear and technical storm shells engineered around human movement, material restraint, and contemporary visual culture.
 
 ![ASTIX Sneaker Hero Preview](./docs/previews/02-sneaker-hero.png)
 
 ---
 
-## 📸 Visual Previews / Sayt Ko'rinishi
+## 📸 Visual Previews
 
-> Loyihani yuklab olishdan oldin saytning asosiy sahifalari va animatsiyalari bilan tanishishingiz mumkin:
+Explore the core scenes and interactive transitions of the ASTIX digital experience:
 
-| Sahifa / Bo'lim | Skrinshot |
+| Scene / Section | Preview |
 | :--- | :--- |
-| **01. Brand Identity**<br>_Boshlang'ich 3D brend monogrammasi va minimal intro_ | <img src="./docs/previews/01-brand-identity.png" width="700" alt="Brand Identity" /> |
-| **02. Footwear Experience**<br>_3D model, "DESIGNED TO MOVE" sarlavhasi va rang almashtirgich_ | <img src="./docs/previews/02-sneaker-hero.png" width="700" alt="Sneaker Hero" /> |
-| **03. Technical Outerwear**<br>_Obsidian Shell texnik kurtka va silliq kinematik o'tish_ | <img src="./docs/previews/03-jacket-hero.png" width="700" alt="Jacket Hero" /> |
-| **04. Collection & Card Overflow**<br>_Karddan tashqariga chiqib turuvchi 3D mahsulotlar_ | <img src="./docs/previews/04-collection-cards.png" width="700" alt="Collection Cards" /> |
-| **05. Craft & Architecture**<br>_Materiallar, detallar va arxitekturaviy dizayn_ | <img src="./docs/previews/05-craft-details.png" width="700" alt="Craft Details" /> |
+| **01. Brand Identity Viewport**<br>_Opening screen featuring the 3D ASTIX sculptural insignia and minimal editorial intro before product reveals._ | <img src="./docs/previews/01-brand-identity.png" width="720" alt="Brand Identity" /> |
+| **02. Footwear Experience**<br>_3D white-and-crimson sneaker revealed at ~40% scroll with live colorway switching and dynamic studio lighting._ | <img src="./docs/previews/02-sneaker-hero.png" width="720" alt="Footwear Experience" /> |
+| **03. Technical Outerwear**<br>_Continuous, overlapping cinematic transition into the Obsidian Shell technical storm jacket._ | <img src="./docs/previews/03-jacket-hero.png" width="720" alt="Technical Outerwear" /> |
+| **04. Dimensional Card Overflow**<br>_Curated `#ECEAE5` luxury collection pedestals where product silhouettes break out 60–80px above card boundaries._ | <img src="./docs/previews/04-collection-cards.png" width="720" alt="Collection Cards" /> |
+| **05. Material Science & Craft Details**<br>_Precision architectural typography, technical garment engineering, and tactile material specifications._ | <img src="./docs/previews/05-craft-details.png" width="720" alt="Craft Details" /> |
 
 ---
 
-## ✨ Asosiy Imkoniyatlar (Key Features)
+## ✨ Key Features
 
-- **Brand-First Cinematic Introduction**: Sahifa dastlab mahsulotsiz, toza 3D ASTIX monogrammasi va brend identifikatori bilan ochiladi.
-- **Continuous 3D Scroll Choreography**: Krossovka va texnik kurtka o'rtasidagi uzluksiz, bir-birini to'ldiruvchi (overlapping) silliq o'tishlar.
-- **Audiowide Typography System**: Asosiy katta sarlavhalar va brend matnlari uchun to'liq Google Font `Audiowide` shrifti integratsiya qilingan.
-- **Auto-Hiding Navigation (Smart Header)**: Pastga scroll qilinganda tepadagi top bar avtomatik yashirinadi, tepaga harakatlanganda esa mayin paydo bo'ladi.
-- **Dimensional Card Overflow**: Kolleksiya bo'limida krossovka va kurtka rasmlari karta ramkasidan tashqariga (60–80px) chiqib, realistik soyalar bilan joylashgan.
-- **Interactive Colorways**: White, Obsidian va Crimson Atelier ranglarida 3D krossovka ko'rinishini jonli almashtirish imkoniyati.
-- **Powered by Astro**: Footer qismida maxsus `Sacramento` yozuv uslubidagi eksklyuziv imzo.
-- **Ultra-Responsive**: Desktop, planshet va mobil qurilmalarga to'liq moslashuvchan.
+- **Brand-First Cinematic Introduction**: The experience opens intentionally with the sculptural ASTIX monogram and brand ethos. Products are held back until deliberate scroll engagement, establishing an editorial tone.
+- **Continuous 3D Scroll Choreography**: Seamless, overlapping transitions between footwear and technical outerwear with unhurried pacing, depth-masking, and physical camera-like translation.
+- **Audiowide Typography System**: Geometric headline architecture powered by Google Font `Audiowide`, paired with neutral high-density body typography.
+- **Smart Auto-Hiding Navigation**: A refined glassmorphic top navigation bar that fluidly conceals when scrolling down and reappears upon upward scroll or reaching the top.
+- **Dimensional Card Overflow**: E-commerce cards where product silhouettes naturally float beyond container borders with soft studio contact shadows.
+- **Interactive Colorways**: Live 3D colorway switching across White, Obsidian, and Crimson Atelier editions with synchronized lighting updates.
+- **Signature Footer Identity**: An exclusive handcrafted *"powered by astro"* signature styled with Google Font `Sacramento`.
+- **Fluid Multi-Device Responsiveness**: Tuned layout mathematics across desktop ultra-wides, laptops, tablets, and mobile viewports.
 
 ---
 
-## 🛠 Texnologiyalar (Tech Stack)
+## 🛠 Tech Stack
 
-- **Framework**: React 18, TypeScript, Vite
-- **Styling**: Tailwind CSS
-- **3D & Canvas**: Three.js, Canvas WebGL
-- **Smooth Scroll**: Lenis Scroll Engine
+- **Core Framework**: React 18, TypeScript, Vite
+- **3D Graphics & Canvas**: Three.js, Canvas WebGL
+- **Styling & Design System**: Tailwind CSS
+- **Motion & Smooth Scroll**: Lenis Smooth Scroll Engine
 - **Icons**: Lucide React
-- **Fonts**: Audiowide, Sacramento, Inter
+- **Typography**: Google Fonts (`Audiowide`, `Sacramento`, `Inter`)
 
 ---
 
-## 🚀 Ishga Tushirish (Getting Started)
+## 📁 Project Structure
 
-### Talablar (Prerequisites)
-- Node.js (v18 yoki undan yuqori)
-- npm / pnpm / yarn
-
-### O'rnatish va Ishga Tushirish
-
-```bash
-# Loyihani klonlash
-git clone https://github.com/cyberuz001/astix.git
-
-# Loyiha papkasiga o'tish
-cd astix
-
-# Kerakli kutubxonalarni o'rnatish
-npm install
-
-# Dasturni ishga tushirish (Development server)
-npm run dev
-
-# Ishlab chiqarish uchun yig'ish (Production build)
-npm run build
-
-# Yig'ilgan loyihani ko'rish (Preview)
-npm run preview
+```text
+astix/
+├── docs/
+│   └── previews/               # High-resolution screenshots for documentation
+│       ├── 01-brand-identity.png
+│       ├── 02-sneaker-hero.png
+│       ├── 03-jacket-hero.png
+│       ├── 04-collection-cards.png
+│       └── 05-craft-details.png
+├── public/
+│   └── images/                 # Transparent product renders & studio assets
+├── scripts/
+│   └── capture_previews.mjs    # Automated headless browser preview generator
+├── src/
+│   ├── components/             # UI and 3D scene modules
+│   │   ├── BrandIntro.tsx      # Initial brand identity viewport
+│   │   ├── Hero3D.tsx          # Three.js canvas & scroll-driven model renderer
+│   │   ├── Header.tsx          # Auto-hiding responsive navigation bar
+│   │   ├── Collection.tsx      # Product cards with overflow geometry
+│   │   ├── CraftDetails.tsx    # Technical craftsmanship and specifications
+│   │   └── Footer.tsx          # Minimal footer with Sacramento astro mark
+│   ├── App.tsx                 # Root application orchestration
+│   ├── main.tsx                # Application entry point
+│   └── index.css               # Global typography, Tailwind, and custom rules
+├── index.html                  # HTML entry with preloaded Google Fonts
+├── package.json
+├── tailwind.config.js
+└── vite.config.ts
 ```
 
 ---
 
-## 📄 Litsenziya
+## 🚀 Getting Started
 
-MIT License
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18.0.0 or higher recommended)
+- `npm`, `pnpm`, or `yarn`
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/cyberuz001/astix.git
+   cd astix
+   ```
+
+2. **Install project dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the local development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+5. **Locally preview production build:**
+   ```bash
+   npm run preview
+   ```
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
