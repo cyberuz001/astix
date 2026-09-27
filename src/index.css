@@ -107,6 +107,13 @@
   text-transform: uppercase;
 }
 
+/* Sacramento handwriting font */
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Smooth typography clamps */
 .hero-title {
   font-size: clamp(3.2rem, 8vw, 8.5rem);

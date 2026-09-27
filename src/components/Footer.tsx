@@ -37,8 +37,8 @@ export const Footer: React.FC = () => {
             <p className="text-xs text-neutral-400 font-sans leading-relaxed max-w-sm">
               Architectural footwear and technical storm shells engineered around human movement, material restraint, and contemporary visual culture.
             </p>
-            <div className="text-[11px] font-mono text-neutral-500">
-              ATELIER: VIA MONTENAPOLEONE, MILAN / TOKYO STUDIO
+            <div className="sacramento-regular text-2xl md:text-3xl text-neutral-300 tracking-wide select-none pt-1">
+              powered by astro
             </div>
           </div>
 
